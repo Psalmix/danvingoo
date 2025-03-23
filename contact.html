@@ -77,6 +77,7 @@
 
   <section class="contact_section layout_padding">
     <div class="container ">
+      <input type="hidden" name="access_key" value="2356de48-ece0-444f-8bcc-9f520a201a08">
       <div class="heading_container">
         <h2>
           Contact Us
@@ -87,22 +88,22 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6">
-          <form action="">
+          <form action="https://api.web3forms.com/submit" method="POST">
             <div>
-              <input type="text" placeholder="Name" />
+              <input type="text" placeholder="Name" required />
             </div>
             <div>
-              <input type="email" placeholder="Email" />
+              <input type="email" placeholder="Email" required />
             </div>
             <div>
               <input type="text" placeholder="Phone Number" />
             </div>
             <div>
-              <input type="text" class="message-box" placeholder="Message" />
+              <input type="text" class="message-box" placeholder="Message" required />
             </div>
             <div class="d-flex ">
               <button>
-                SEND
+                Submit
               </button>
             </div>
           </form>
